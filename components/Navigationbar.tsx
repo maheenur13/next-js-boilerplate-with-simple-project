@@ -9,16 +9,16 @@ const Navigationbar: FC = () => {
 				<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="me-auto">
+					<Nav className="me-auto d-flex align-items-center">
+						<Nav.Link>
+							<Link href="/">Home</Link>
+						</Nav.Link>
 						<Nav.Link>
 							<Link href="/about">About</Link>
 						</Nav.Link>
-						<Nav.Link>
-							{/* ok */}
-							<Link href="/">Home</Link>
-						</Nav.Link>
+
 					</Nav>
-					
+
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
