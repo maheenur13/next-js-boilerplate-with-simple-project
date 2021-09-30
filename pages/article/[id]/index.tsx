@@ -2,6 +2,7 @@ import { server } from '../../../config';
 import Link from 'next/link';
 
 const article = ({ article }: any) => {
+	console.log('success')
 	return (
 		<div>
 			<h3>{article[0].title}</h3>

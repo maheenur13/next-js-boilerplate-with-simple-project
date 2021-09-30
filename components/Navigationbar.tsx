@@ -6,7 +6,7 @@ const Navigationbar: FC = () => {
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 			<Container>
-				<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+				<Link href="/"><Navbar.Brand>Navbar</Navbar.Brand></Link>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto d-flex align-items-center">
