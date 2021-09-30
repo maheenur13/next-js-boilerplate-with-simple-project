@@ -5,13 +5,13 @@ import Header from './Header';
 const Layout: FC = ({ children }) => {
 	return (
 		<>
-		<Navigation />
-		<div className={style.container}>
-			
-			<main className={style.main}>
-				<Header />
-				{children}</main>
-		</div>
+			<Navigation />
+			<div className={style.container}>
+				<main className={style.main}>
+					<Header />
+					{children}
+				</main>
+			</div>
 		</>
 	);
 };
